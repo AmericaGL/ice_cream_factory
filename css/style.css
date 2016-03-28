@@ -58,6 +58,8 @@ main {
 
 .menu a li:hover {
 	text-shadow: none;
+	color: #000000;
+	transition: all 0.3s linear;
 
 }
 
@@ -85,9 +87,7 @@ main {
 }
 
 #slider {
-	width: 1000px;
-	float: left;
-	height: 350px;
+	padding-bottom: 5px;
 	border-bottom: 1px solid #cccccc;
 }
 
@@ -120,3 +120,37 @@ main {
 
 }
 
+footer{
+	width:990px;
+	float:left;
+	height:60px;
+	background:#E65540;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#footer-menu{
+	width:400px;
+	float:left;
+
+}
+
+#footer-menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	padding-top: 25px;
+	font-family: tahoma;
+}
+
+#footer-menu a li{
+	list-style-type: none;
+	padding-right: 9px;
+	border-right: 1px solid #000000;
+}
+
+#footer-menu a li:hover{
+	color: #000000;
+	transition: all 0.3s linear;
+}
