@@ -37,12 +37,12 @@ main {
 .menu a {
 	text-decoration: none;
 	color: #E65540;
-	font-size: 14px;
+	font-size: 18px;
 	font-family: tahoma;
 	font-weight: bold;
 	/*the menu needs to be display next to each other*/
 	display:inline-block;
-	padding: 35px;
+	padding: 30px;
 	text-shadow: 1px 1px 1px #cccccc;
 }
 
@@ -126,7 +126,7 @@ footer{
 	height:60px;
 	background:#E65540;
 	margin-top: 20px;
-	padding: 5px;
+	
 }
 
 #footer-menu{
@@ -138,19 +138,64 @@ footer{
 #footer-menu a {
 	text-decoration: none;
 	color: white;
-	font-weight: bold;
+	font-weight: italic;
 	display: inline-block;
-	padding-top: 25px;
+	padding-top: 10px;
 	font-family: tahoma;
 }
 
 #footer-menu a li{
 	list-style-type: none;
-	padding-right: 9px;
+	padding-right: 5px;
 	border-right: 1px solid #000000;
+
 }
 
 #footer-menu a li:hover{
 	color: #000000;
 	transition: all 0.3s linear;
+}
+
+#footer-text{
+	color:white;
+	width:200px;
+	height:30px;
+	margin-top: 10px;
+	margin-left:60px;
+	float:left;
+	font-size:18px;
+	font-family: tahoma;
+}
+
+#social-icons{
+	width:300px;
+	height:60px;
+	float:right;
+}
+
+#social-icons a{
+	padding: 3px;
+	padding-top:25px;
+	float:right;
+}
+
+#social-icons img{
+	margin-top: -10px;
+	border: 2px solid #999999;
+	border-radius: 50%;
+	  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+	transition:transform 0.3s ease-out;
+
+}
+
+#social-icons img:hover{
+	 -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
