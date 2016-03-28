@@ -85,8 +85,38 @@ main {
 }
 
 #slider {
-	width:1000px;
-	float:left;
-	height:350px;
-	border-bottom:1px solid #cccccc;
+	width: 1000px;
+	float: left;
+	height: 350px;
+	border-bottom: 1px solid #cccccc;
 }
+
+#contentArea{
+	width: 1000px;
+	float: left;
+}
+
+#headingTitle{
+	width: 100px;
+	float: left;
+	font-size: 18px;
+	padding-top: 10px;
+	font-family: tahoma;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;	
+}
+
+
+
+#about-content{
+	width: 980px;
+	float:left;
+	padding: 10px;
+	font-family: tahoma;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: justify;
+
+}
+
