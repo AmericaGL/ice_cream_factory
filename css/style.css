@@ -84,4 +84,9 @@ main {
 
 }
 
-#logo img
+#slider {
+	width:1000px;
+	float:left;
+	height:350px;
+	border-bottom:1px solid #cccccc;
+}
